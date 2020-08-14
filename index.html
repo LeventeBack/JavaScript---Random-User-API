@@ -1,0 +1,130 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Memory Game</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="img/icon.svg" type="image/x-icon">
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h1 class="game-title">Cards Memory Game</h1>
+        <div class="game-status">
+            <div>Timer: <span data-timer>0</span></div>
+            <div>Flips: <span data-flips>0</span></div>
+        </div>
+        <div class="modal visible" data-modal-start>
+            <h2 data-button-start>Start Game</h2>
+        </div>
+        <div class="modal" data-modal-game-over>
+            <h1>Game Over</h1>
+            <h3 data-button-restart>Try Again</h3>
+        </div>
+        <div class="modal" data-modal-won>
+            <h1>You Won</h1>
+            <h3 data-button-replay>Play Again</h3>
+        </div>
+        <div class="game-grid">
+            <div class="card">
+                <div class="front-face face"><img src="img/JC.jpg"></div> 
+                <div class="back-face face"><img src="img/back.jpg"></div> 
+            </div>  
+            <div class="card">
+                <div class="front-face face"><img src="img/QS.jpg"></div> 
+                <div class="back-face face"><img src="img/back.jpg"></div> 
+            </div>
+            <div class="card">
+                <div class="front-face face"><img src="img/JS.jpg"></div> 
+                <div class="back-face face"><img src="img/back.jpg"></div> 
+            </div>        
+            <div class="card">
+                <div class="front-face face"><img src="img/KH.jpg"></div> 
+                <div class="back-face face"><img src="img/back.jpg"></div> 
+            </div>
+            <div class="card">
+                <div class="front-face face"><img src="img/QH.jpg"></div> 
+                <div class="back-face face"><img src="img/back.jpg"></div> 
+            </div>
+            <div class="card">
+                <div class="front-face face"><img src="img/JH.jpg"></div> 
+                <div class="back-face face"><img src="img/back.jpg"></div> 
+            </div> 
+            <div class="card">
+                <div class="front-face face"><img src="img/QC.jpg"></div> 
+                <div class="back-face face"><img src="img/back.jpg"></div> 
+            </div>
+            <div class="card">
+                <div class="front-face face"><img src="img/JH.jpg"></div> 
+                <div class="back-face face"><img src="img/back.jpg"></div>        
+            </div>  
+            <div class="card">
+                <div class="front-face face"><img src="img/JD.jpg"></div> 
+                <div class="back-face face"><img src="img/back.jpg"></div> 
+            </div>
+            <div class="card">
+                <div class="front-face face"><img src="img/JC.jpg"></div> 
+                <div class="back-face face"><img src="img/back.jpg"></div> 
+            </div>
+            <div class="card">
+                <div class="front-face face"><img src="img/KC.jpg"></div> 
+                <div class="back-face face"><img src="img/back.jpg"></div> 
+            </div>
+            <div class="card">
+                <div class="front-face face"><img src="img/JD.jpg"></div> 
+                <div class="back-face face"><img src="img/back.jpg"></div> 
+            </div>
+            <div class="card">
+                <div class="front-face face"><img src="img/QD.jpg"></div> 
+                <div class="back-face face"><img src="img/back.jpg"></div> 
+            </div>
+            <div class="card">
+                <div class="front-face face"><img src="img/KD.jpg"></div> 
+                <div class="back-face face"><img src="img/back.jpg"></div> 
+            </div>
+            <div class="card">
+                <div class="front-face face"><img src="img/KS.jpg"></div> 
+                <div class="back-face face"><img src="img/back.jpg"></div> 
+            </div>
+            <div class="card">
+                <div class="front-face face"><img src="img/KH.jpg"></div> 
+                <div class="back-face face"><img src="img/back.jpg"></div> 
+            </div>
+           
+            <div class="card">
+                <div class="front-face face"><img src="img/JS.jpg"></div> 
+                <div class="back-face face"><img src="img/back.jpg"></div> 
+            </div>
+            <div class="card">
+                <div class="front-face face"><img src="img/KC.jpg"></div> 
+                <div class="back-face face"><img src="img/back.jpg"></div> 
+            </div>
+            <div class="card">
+                <div class="front-face face"><img src="img/KD.jpg"></div> 
+                <div class="back-face face"><img src="img/back.jpg"></div> 
+            </div>
+            <div class="card">
+                <div class="front-face face"><img src="img/KS.jpg"></div> 
+                <div class="back-face face"><img src="img/back.jpg"></div> 
+            </div>
+            <div class="card">
+                <div class="front-face face"><img src="img/QD.jpg"></div> 
+                <div class="back-face face"><img src="img/back.jpg"></div> 
+            </div>
+            <div class="card">
+                <div class="front-face face"><img src="img/QS.jpg"></div> 
+                <div class="back-face face"><img src="img/back.jpg"></div> 
+            </div>
+            <div class="card">
+                <div class="front-face face"><img src="img/QH.jpg"></div> 
+                <div class="back-face face"><img src="img/back.jpg"></div> 
+            </div>
+            <div class="card">
+                <div class="front-face face"><img src="img/QC.jpg"></div> 
+                <div class="back-face face"><img src="img/back.jpg"></div> 
+            </div>      
+        </div>
+    </div>
+</body>
+</html>
